@@ -144,3 +144,47 @@ footer {
     transform: scale(1.2);
     color: #121212; /* Icoon kleurt mee met je donkere huisstijl bij hover */
 }
+
+/* Styling speciaal voor de aftelpagina */
+.coming-soon-body {
+    justify-content: center; /* Centreert alles perfect in het midden van het scherm */
+    min-height: 100vh;
+    box-sizing: border-box;
+}
+
+.coming-soon-container {
+    text-align: center;
+    width: 100%;
+    max-width: 600px;
+    margin-bottom: 50px;
+}
+
+.release-text {
+    font-size: 1.0rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    margin-bottom: 40px;
+    color: #121212; /* Donkere letters zodat het hard knalt op het roze */
+}
+
+.form-card {
+    margin-top: 20px;
+}
+/* Container om de video perfect te centreren */
+.logo-container {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+/* Styling voor het bewegende logo */
+.site-video-logo {
+    max-width: 500px; /* Hier kun je de breedte aanpassen (bijv. 150px of 250px) */
+    width: 300%;
+    height: auto; /* Dit zorgt ervoor dat de proporties ALTIJD kloppen */
+    display: block;
+    border-radius: 8px; /* Optioneel: geeft de video subtiele ronde hoekjes */
+}
