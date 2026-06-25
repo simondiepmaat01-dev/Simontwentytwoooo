@@ -201,6 +201,13 @@ footer {
         font-size: 0.8rem; /* Maakt ook de subtitel iets compacter voor mobiel */
         margin-bottom: 25px;
     }
+    /* --- CENTREREN VAN TEKST (Alleen actief op schermen smaller dan 600px) --- */
+
+    /* Voeg dit stukje toe voor de 'Available on all platforms' tekst */
+    .coming-soon-container p {
+        text-align: center;
+        width: 100%;
+    }
 
     .card {
         padding: 20px; /* Geeft de kaders iets minder loze binnenruimte op een smal scherm */
