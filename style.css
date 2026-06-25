@@ -192,8 +192,8 @@ footer {
 @media (max-width: 600px) {
     
     .camo-text {
-        font-size: 1.8rem; /* Maakt de letters iets kleiner zodat ze netjes op één regel passen */
-        -webkit-text-stroke: 1.5px #000000; /* Maakt de zwarte rand iets dunner, passend bij de kleinere letters */
+        font-size: 2.2rem; /* Maakt de letters iets kleiner zodat ze netjes op één regel passen */
+        -webkit-text-stroke: 1.0px #000000; /* Maakt de zwarte rand iets dunner, passend bij de kleinere letters */
         letter-spacing: 0px; /* Zorgt dat de letters niet te dicht op elkaar geperst worden */
     }
 
