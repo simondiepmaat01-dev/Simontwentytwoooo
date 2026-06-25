@@ -188,3 +188,22 @@ footer {
     display: block;
     border-radius: 8px; /* Optioneel: geeft de video subtiele ronde hoekjes */
 }
+/* --- TELEFOON STYLING (Alleen actief op schermen smaller dan 600px) --- */
+@media (max-width: 600px) {
+    
+    .camo-text {
+        font-size: 1.8rem; /* Maakt de letters iets kleiner zodat ze netjes op één regel passen */
+        -webkit-text-stroke: 1.5px #000000; /* Maakt de zwarte rand iets dunner, passend bij de kleinere letters */
+        letter-spacing: 0px; /* Zorgt dat de letters niet te dicht op elkaar geperst worden */
+    }
+
+    .release-text {
+        font-size: 1.3rem; /* Maakt ook de subtitel iets compacter voor mobiel */
+        margin-bottom: 25px;
+    }
+
+    .card {
+        padding: 20px; /* Geeft de kaders iets minder loze binnenruimte op een smal scherm */
+        margin-bottom: 15px;
+    }
+}
